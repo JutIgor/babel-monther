@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JutIgor/babel-monther.git"
   }
 }

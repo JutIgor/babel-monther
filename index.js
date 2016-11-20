@@ -12,6 +12,7 @@ const fullNames = [
   'November',
   'December',
 ];
+
 const shortNames = [
   'Jan',
   'Feb',
@@ -27,6 +28,9 @@ const shortNames = [
   'Dec'
 ];
 
+const FULL = 'months-full';
+const SHORT = 'months-short';
+
 module.exports = ({ types: t }) => {
   return {
     visitor: {
@@ -37,11 +41,11 @@ module.exports = ({ types: t }) => {
           return;
         }
 
-        if (elements[0].value === 'months-full') {
+        if (elements[0].value === FULL) {
           path.node.elements = fullNames.map(e => t.stringLiteral(e));
         }
 
-        if (elements[0].value === 'months-short') {
+        if (elements[0].value === SHORT) {
           path.node.elements = shortNames.map(e => t.stringLiteral(e));
         }
       }
