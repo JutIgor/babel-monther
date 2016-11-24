@@ -17,6 +17,6 @@ $ npm install --save-dev babel-monther
 
 ### .js
 ```
-const MONTHS = ['months-full'];
-const MONTHS_SHORT = ['months-short'];
+const MONTHS = ['months-full']; => ['January', 'February', ...]
+const MONTHS_SHORT = ['months-short']; => ['Jan', 'Feb', ...]
 ```
