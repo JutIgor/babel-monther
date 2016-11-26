@@ -1,6 +1,6 @@
 {
   "name": "babel-monther",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "plugin which allowed you to use short notation for declaring list of months in array",
   "main": "index.js",
   "scripts": {
